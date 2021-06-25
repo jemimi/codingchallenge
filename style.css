@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat&display=swap');
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #101862;
+}
+h1 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  color: #daddf3;
+}
+
+#team {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+  color: #acb3f3;
+}
+
+.team .box {
+  width: 27%;
+  padding: 10px;
+  box-shadow: 3px;
+  border-radius: 15px;
+  background-color: #28328d;
+}
+
+.bio {
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+  color: #acb3f3;
+}
+
+.feature {
+  float: right;
+  width: 10%;
+}
+
+.image {
+  max-width: 55%;
+  border-radius: 50%;
+}
+
+.role {
+  float: left;
+  margin: 0 5px;
+  padding: 1px 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 550;
+  font-size: small;
+  color: #182ef6;
+  border-radius: 7px;
+}
+
+@media screen and (min-width: 600px) {
+  .card {
+    flex: 1 1 calc(50% - 2rem);
+  }
+}
+
+@media screen and (min-widteh: 900px) {
+  .card {
+    flex: 1 1 calc(33% - 2rem);
+  }
+}
